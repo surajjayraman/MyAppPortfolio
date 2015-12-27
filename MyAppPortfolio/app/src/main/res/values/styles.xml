@@ -17,4 +17,15 @@
 
     <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
 
+    <!-- Style for Buttons -->
+    <style name="OrangeButton" >
+        <item name="android:layout_width">@dimen/buttonwidth</item>
+        <item name="android:layout_height">@dimen/buttonheight</item>
+        <item name="android:layout_marginTop">@dimen/marginmiddlebutton</item>
+        <item name="android:background">@color/orangebackroundbutton</item>
+        <item name="android:onClick">"displayMessage"</item>
+        <item name="android:textColor">@color/textblack</item>
+        <item name="android:textSize">@dimen/textbuttonsize</item>
+    </style>
+
 </resources>
